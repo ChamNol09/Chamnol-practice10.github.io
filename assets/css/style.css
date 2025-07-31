@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.left-side,
+.content-area{
+  background-color: #ddd;
+}
+
+.left-side .box{
+  height: 150px;
+  margin-bottom: 20px;
+  background-color: #91BD92;
+}
+.box-gray {
+  background-color: #ddd !important;
+  min-height: 130px;
+}
+
+.content-area .box{
+  height: 110px;
+  padding:20px;
+  margin-bottom: 15px;
+  background-color: #91BD92;
+}
+.content-area .box-b{
+  height: 240px;
+}
+
+.right-side .box{
+  height: 110px;
+  margin-bottom: 20px;
+  background-color: #91BD92;
+}
+.right-side .box-b{
+  height: 360px;
+}
